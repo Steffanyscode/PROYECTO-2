@@ -1,0 +1,32 @@
+h1 {
+    color: rgba(160, 102, 102, 0.848);
+}
+
+nav ul{
+    padding: 0;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+nav a {
+    color: #b38867;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #879281 ;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: #ecdfed;
+    width: 60px;
+    padding: 8px;
+    height: 20px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    color: rgba(160, 102, 102, 0.848);
+    text-align: center;
+}
+
