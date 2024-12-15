@@ -19,14 +19,56 @@ nav ul li a:hover {
 nav ul li{
     display: inline-block;
     background-color: #ecdfed;
-    width: 60px;
     padding: 8px;
     height: 20px;
 }
 
 footer{
-    background-color: blanchedalmond;
+    
     color: rgba(160, 102, 102, 0.848);
     text-align: center;
+}
+
+.importante {
+    color: #80471C ;
+}
+
+#pie {
+    background-color: blanchedalmond;
+}
+
+.beneficios {
+    background-color: #decaaf;
+    color: #6E522C;
+    border-color:  #80471C;
+    
+}
+
+.tipos {
+    background-color: #D3B792;
+    color: #523C20;
+    border-color:  #80471C;
+}
+
+.caja {
+    padding: 20px;
+    border: 3px solid;
+    margin: 20px 8px;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    font-style: italic;
+
+    text-align: left;
+}
+
+[type="tel"] {
+    border-color: #4b5f50;
+}
+
+[disable] {
+    border-color: #3f290b;
 }
 
