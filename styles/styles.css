@@ -2,6 +2,10 @@ h1 {
     color: rgba(160, 102, 102, 0.848);
 }
 
+p {
+    color: #80471C ¡imoportant;
+}
+
 nav ul{
     padding: 0;
     text-align: center;
@@ -30,7 +34,7 @@ footer{
 }
 
 .importante {
-    color: #80471C ;
+    color: #80471C;
 }
 
 #pie {
@@ -71,4 +75,19 @@ footer{
 [disable] {
     border-color: #3f290b;
 }
+
+.clase {
+    color: #3c754a;
+}
+
+#identificador {
+    color: #b38867;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
