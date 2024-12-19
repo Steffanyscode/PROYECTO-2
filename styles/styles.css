@@ -4,31 +4,34 @@ h1 {
 
 p {
     color: #80471C ¡imoportant;
+    font-size: 20px;
+
 }
 
-nav ul{
-    padding: 0;
+nav ul {
+    padding: 20px;
     text-align: center;
     background-color: blanchedalmond;
 }
+
 nav a {
     color: #b38867;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #879281 ;
+    color: #879281;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     background-color: #ecdfed;
     padding: 8px;
     height: 20px;
 }
 
-footer{
-    
+footer {
+
     color: rgba(160, 102, 102, 0.848);
     text-align: center;
 }
@@ -41,31 +44,36 @@ footer{
     background-color: blanchedalmond;
 }
 
-.beneficios {
-    background-color: #decaaf;
-    color: #6E522C;
-    border-color:  #80471C;
-    
+.contenedor {
+    background-color: #D3B792;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
 }
 
-.tipos {
-    background-color: #D3B792;
-    color: #523C20;
-    border-color:  #80471C;
+.wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-nowrap .caja {
+    width: 300px;
+}
+
+
+.align-center {
+    align-items: center;
+    justify-content: center;
 }
 
 .caja {
-    padding: 20px;
-    border: 3px solid;
-    margin: 20px 8px;
-    box-sizing: border-box;
-
+    border: 3px solid #80471C;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 20px;
     font-style: italic;
-
-    text-align: left;
 }
 
 [type="tel"] {
@@ -84,10 +92,13 @@ footer{
     color: #b38867;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Delius", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
-
+}
