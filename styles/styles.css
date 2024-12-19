@@ -1,17 +1,22 @@
 h1 {
     color: rgba(160, 102, 102, 0.848);
+    
+}
+
+.origen{
+    margin-bottom: 200px;
 }
 
 p {
     color: #80471C ¡imoportant;
     font-size: 20px;
-
 }
 
 nav ul {
     padding: 20px;
     text-align: center;
     background-color: blanchedalmond;
+
 }
 
 nav a {
