@@ -9,6 +9,7 @@
         h2 {
             color: #be866b;
         }
+
         header {
             position: fixed;
             top: 0;
@@ -26,21 +27,19 @@
 </head>
 
 <body>
-    <header>
-
+    <header id="cabecera">
+        <img src="imgs/cafe-del-grano-de-molido-y-taza-asados-en-madera-113412114.jpg" alt="">
         <h1>Todo sobre el cafe</h1>
         <nav>
-            <ul>
-                <li><a href="">Origen</a></li>
-                <li><a href="">Beneficios</a></li>
-                <li><a href="">Tipos de cafe</a></li>
-            </ul>
+            <a href="">Origen</a>
+            <a href="">Beneficios</a>
+            <a href="">Tipos de cafe</a>
         </nav>
     </header>
     <main>
         <section>
             <div class="origen"></div>
-            <h2> Origen del cafe</h2>
+            <h2 class="origen"> Origen del cafe</h2>
             <p> El origen del café se remonta a varios siglos atrás y tiene sus raíces en Etiopía. Se
                 dice que un pastor
                 llamado Kaldi descubrió el café en el siglo IX al notar que sus cabras se volvían más enérgicas después
@@ -81,15 +80,46 @@
     </main>
 
     <main>
-        <section>
-            <h3>Beneficios</h3>
-            <div class="contenedor wrap-wrap">
-                <div class="caja">Estimula el sistema nervioso</div>
-                <div class="caja">Es diuretico</div>
-                <div class="caja">Es rico en antioxidantes</div>
-                <div class="caja">Puede mejorar la memoria </div>
-                <div class="caja">Puede ayudar a perder peso</div>
-            </div>
+        <h3>Beneficios</h3>
+        <br>
+        <section class="container">
+            <article class="card noticia">
+                <h4>Estimula el sistema nervioso<h4>
+                        <img class="imagen" src="imgs/sistema nervioso.webp" alt="">
+                        <p>El café tiene una relación estrecha con el sistema nervioso debido a su principal componente
+                            activo, la cafeína, que actúa como un estimulante natural. Esta interacción afecta diversas
+                            funciones del sistema nervioso central y puede tener tanto efectos positivos como negativos
+                            dependiendo de la cantidad consumida.</p>
+                        <button>Leer mas</button>
+            </article>
+
+            <article class="card noticia">
+                <h4>Es diuretico<h4>
+                        <img class="imagen" src="imgs/efecto-diurético.jpg" alt="">
+                        <p>El café tiene propiedades diuréticas, lo que significa que puede aumentar la producción de
+                            orina en el cuerpo. Este efecto se debe principalmente a la cafeína, que actúa sobre los
+                            riñones y el sistema urinario.</p>
+                        <button>Leer mas</button>
+            </article>
+
+            <article class="card noticia">
+                <h4>Rico en antioxidantes<h4>
+                        <img class="imagen" src="imgs/images.jpeg" alt="">
+                        <p>El café es una excelente fuente de antioxidantes, lo que contribuye a su popularidad como
+                            bebida saludable cuando se consume de manera moderada. Los antioxidantes son compuestos que
+                            ayudan a combatir los radicales libres, moléculas inestables que pueden dañar las células y
+                            contribuir al envejecimiento, inflamación y diversas enfermedades crónicas.</p>
+                        <button>Leer mas</button>
+            </article>
+
+            <article class="card noticia">
+                <h4>Puede mejorar la memoria<h4>
+                        <img class="imagen" src="imgs/El-café-puede-ayudarle-a-mejorar-la-memoria.jpg" alt="">
+                        <p>El café puede tener efectos positivos en la memoria, principalmente debido a la cafeína, su
+                            componente activo más conocido. La cafeína actúa como un estimulante natural del sistema
+                            nervioso central, influyendo en diversas funciones cerebrales, incluida la memoria.</p>
+                        <button>Leer mas</button>
+            </article>
         </section>
     </main>
 
@@ -98,15 +128,15 @@
             <h3>Tipos de Café</h3>
             <div class="contenedor align-center">
                 <div class="caja">Espresso</div>
-                <div class="caja">Cappuccino</div>
+                <div class="caja">Cappuccino</div>   
                 <div class="caja">Americano</div>
                 <div class="caja">Latte</div>
             </div>
         </section>
 
-        <input type="text" disabled>
-        <input type="email">
-        <input type="tel">
+        <input type="text" id="nombre" placeholder="nombre">
+        <input type="email" id="email" placeholder="emal">
+        <input type="tel" id="tel" placeholder="telefono">
     </main>
 
     <footer id="pie">
